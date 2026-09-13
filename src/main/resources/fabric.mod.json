@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "villagebounds",
+	"version": "${version}",
+	"name": "VillageBounds",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Hik1tka"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/villagebounds/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hik1tka.vb.VillageBounds"
+		],
+		"client": [
+			"hik1tka.vb.client.VillageBoundsClient"
+		]
+	},
+	"mixins": [
+		"villagebounds.mixins.json",
+		{
+			"config": "villagebounds.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

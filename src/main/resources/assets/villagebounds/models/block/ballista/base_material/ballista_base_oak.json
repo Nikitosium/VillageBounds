@@ -1,0 +1,6 @@
+{
+  "parent": "villagebounds:block/ballista/ballista_base",
+  "textures": {
+    "wood_texture": "minecraft:block/oak_planks"
+  }
+}
