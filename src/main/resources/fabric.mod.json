@@ -23,11 +23,7 @@
 		]
 	},
 	"mixins": [
-		"villagebounds.mixins.json",
-		{
-			"config": "villagebounds.client.mixins.json",
-			"environment": "client"
-		}
+		"villagebounds.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.5",

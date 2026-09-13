@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
 import net.minecraft.client.util.ModelIdentifier;
 import net.minecraft.util.Identifier;
 
+import javax.naming.Context;
+
 /**
  * Хук у процес спікання (bake) моделей на клієнті. Знаходить модель саме
  * нашого блока балісти і підміняє звичайну BakedModel на
